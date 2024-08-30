@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #5e0214;
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center; 
+    padding: 0 3%;
+}
+
+header a {
+    text-decoration: none;
+    color: #eec51d;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+}
+
+.menu {
+    flex: 7;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    color: #eec51d;
+    align-items: center;
+    font-family: nav;
+}
+
+.contato {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.contato h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #5e0214;
+    font-family: nav;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #5e0214;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #44010e;
+}
+
+footer {
+
+    text-align: center;
+        }
